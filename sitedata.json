@@ -1,0 +1,35 @@
+[
+  {
+    "itemNumber": "Work item #1",
+    "title": "Kids Sports Website",
+    "smallImage": "images/Kids_Sport.png",
+    "smallImageAlt": "Example of Ally's work, featuring a website for kids sports.",
+    "largeImage": "images/Kids_Sport_Full.png",
+    "largeImageAlt": "Example of Ally's work, featuring a website for kids sports.",
+    "projectText": "Project #1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam tempore saepe nihil vel quae unde dolorum! Saepe, iusto accusantium?",
+    "challengestText": "challenges #1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam tempore saepe nihil vel quae unde dolorum! Saepe, iusto accusantium?",
+    "technologiesList": ["HTML", "CSS", "JavaScript", "C#"]
+  },
+  {
+    "itemNumber": "Work item #2",
+    "title": "Pet Adoption Campaign",
+    "smallImage": "images/Adopt_Pet_Preview.png",
+    "smallImageAlt": "Example of Ally's work, featuring a campaign for adopting pets instead of buying them.",
+    "largeImage": "images/Adopt_Pet_Full.png",
+    "largeImageAlt": "Example of Ally's work, featuring a campaign for adopting pets instead of buying them.",
+    "projectText": "Project #2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam tempore saepe nihil vel quae unde dolorum! Saepe, iusto accusantium?",
+    "challengestText": "challenges #2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam tempore saepe nihil vel quae unde dolorum! Saepe, iusto accusantium?",
+    "technologiesList": ["HTML", "CSS", "JavaScript", "C#"]
+  },
+  {
+    "itemNumber": "Work item #3",
+    "title": "Pub Website",
+    "smallImage": "images/Pub_Website.png",
+    "smallImageAlt": "Example of Ally's work, featuring a website for a pub.",
+    "largeImage": "images/Pub_Website_Full.png",
+    "largeImageAlt": "Example of Ally's work, featuring a website for a pub.",
+    "projectText": "Project #3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam tempore saepe nihil vel quae unde dolorum! Saepe, iusto accusantium?",
+    "challengestText": "challenges #3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam tempore saepe nihil vel quae unde dolorum! Saepe, iusto accusantium?",
+    "technologiesList": ["HTML", "CSS", "JavaScript", "C#"]
+  }
+]

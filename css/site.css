@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+html {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+main {
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+a {
+  color: orange;
+  font-size: 2rem;
+  margin: 0;
+}
+
+form {
+  display: none;
+  padding: 0 15%;
+  padding-bottom: 1rem;
+}
+
+button {
+  font-size: 0.75rem;
+  padding: 0.25rem 5%;
+  margin: 0.25rem;
+}
+
+input,
+textarea {
+  font-size: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  color: #fff;
+  margin: 0;
+  text-align: right;
+}
+nav ul li {
+  margin-right: 5%;
+  display: inline-block;
+  margin-right: 1rem;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  background-color: #000;
+  padding: 0.67rem 0;
+}
+header a {
+  font-size: 0.67rem;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 0.33rem 0;
+  font-size: 0.67rem;
+}
+
+.hero {
+  position: relative;
+}
+.hero > img {
+  width: 100%;
+}
+.hero h1 {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 3rem;
+  text-align: right;
+}
+
+#contact-me h2 {
+  text-align: center;
+}
+#contact-me a {
+  color: #000;
+}
+
+#portfolio-section {
+  position: relative;
+}
+#portfolio-section img {
+  width: 100%;
+}
+#portfolio-section > div {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+#portfolio-section h2 {
+  color: #fff;
+  margin: 0;
+}
+
+#my-story {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.highlight {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.highlight > div {
+  flex-grow: 1;
+}
+.inverted {
+  color: #fff;
+  background-color: #000;
+  flex-direction: row;
+}
+
+.highlight > img {
+  width: 50%;
+}
+.highlight.inverted img {
+  width: 50%;
+}
+
+#work-item h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+#work-item img {
+  width: 100%;
+}
+
+.work-explanation {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.vis-form {
+  display: grid;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  #portfolio-section > div > a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  html {
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  #portfolio-section > div > a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  #portfolio-section > div > a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  #portfolio-section > div > a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    font-size: 32px !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  header,
+  footer {
+    display: none;
+  }
+
+  a[href]::after {
+    content: ' (' attr(href) ')';
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  @page {
+    margin: 2.5cm;
+    size: a4 portrait;
+  }
+
+  /* h2 {
+      page-break-before: always;
+   } */
+
+  ol,
+  ul {
+    page-break-inside: avoid;
+  }
+
+  p {
+    orphans: 2;
+    widows: 2;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+    color: #fff !important;
+  }
+  
+  #email-form {
+    display: grid;
+  }
+  #email-form label {
+    font-size: 0.8rem !important;
+  }
+  button {
+    font-size: 0.8rem !important;
+  }
+  textarea{
+    font-size: 0.5rem !important;
+  }
+
+  #project-technologies {
+    page-break-before: always;
+  }
+}

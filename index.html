@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Ally's Portfolio</title>
+
+    <meta
+      name="description"
+      content="This is the portfolio page for Ally Allison that featuers her work expiriance and her projects."
+    />
+    <meta property="og:title" content="About Ally Allison" />
+    <meta
+      property="og:description"
+      content="This is the portfolio page for Ally Allison that featuers her work expiriance and her projects."
+    />
+    <meta property="og:url" content="https://ally.allison" />
+    <link rel="canonical" href="https://ally.allison" />
+    <meta property="og:image" content="https://ally.allison/images/Ally2" />
+    <meta property="og:image:alt" content="The picture of smiling Ally." />
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <main>
+      <div class="hero">
+        <h1>Hi, I'm<br />Ally</h1>
+        <img src="images/Ally2.png" alt="The picture of me smiling." />
+      </div>
+      <div id="contact-me">
+        <h2>This is how to contact me</h2>
+        <h3><a id="show-form" href="#">Use this form</a></h3>
+
+        <form id="email-form" action="" method="post">
+          <label for="name">Name: </label>
+          <input id="name" type="text" name="name" required />
+          <label for="email">Email: </label>
+          <input id="email" type="email" name="email" required />
+          <label for="message">Message: </label>
+          <textarea
+            id="message"
+            type="text"
+            name="message"
+            rows="5"
+            required
+          ></textarea>
+          <div>
+            <button type="submit">Contact Ally</button>
+            <button type="reset">Reset Form</button>
+          </div>
+        </form>
+      </div>
+      <div id="portfolio-section">
+        <div>
+          <h2>This is some of my work</h2>
+          <a href="portfolio.html">see more</a>
+        </div>
+        <img
+          src="images/Landing_Page_Collage.png"
+          alt="My portfolio collage, includng images of my adoption campaign, restaurant site, and kids sports site."
+        />
+      </div>
+      <div id="my-story">
+        <h2>This is my story</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint culpa
+          quia sapiente distinctio recusandae earum voluptate odio odit saepe
+          quo dolorum perspiciatis eum accusamus dolores, eos perferendis
+          explicabo beatae libero dicta qui at nostrum expedita. Quaerat,
+          distinctio unde ad laboriosam voluptatibus nostrum similique aut quis
+          nesciunt placeat dolore illo molestias temporibus sequi eligendi iusto
+          magni. Dolorem error perspiciatis aliquid veritatis?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          distinctio ad sapiente sint nihil similique fuga? Eaque, ad adipisci.
+          Doloribus reprehenderit placeat a laborum illo, vero enim voluptas
+          expedita porro distinctio nihil hic blanditiis incidunt, deserunt,
+          eius veniam ipsa corporis.
+        </p>
+      </div>
+    </main>
+    <footer>&copy; Ally Allison <span id="cr-date"></span></footer>
+  </body>
+  <script src="js/app.js"></script>
+  <script>
+    app.homeStartup();
+  </script>
+</html>
